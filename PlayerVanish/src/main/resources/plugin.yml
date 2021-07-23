@@ -1,0 +1,9 @@
+name: Playervanish
+version: ${project.version}
+main: com.bluumpuut.playervanish.Playervanish
+authors: [ Bloemenpot ]
+description: Een plugin om jezelf onzichtbaar te maken van andere spelers.
+
+commands:
+  vanish:
+    description: Maak jezelf onzichtbaar voor andere spelers!

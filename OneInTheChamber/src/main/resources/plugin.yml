@@ -1,0 +1,5 @@
+name: OneInTheChamber
+version: ${project.version}
+main: com.bluumpuut.oneinthechamber.Oneinthechamber
+authors: [ Bloemenpot ]
+description: One in the chamber minigame gemaakt voor de DDG BootCamp
