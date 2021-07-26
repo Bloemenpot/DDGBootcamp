@@ -9,10 +9,8 @@ public final class Oneinthechamber extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
         //Arrow Shot Event
-        Bukkit.getPluginManager().registerEvents(new ArrowShotListener(), this);
+        Bukkit.getPluginManager().registerEvents(new ArrowShotListener(this), this);
 
         //Entity damage by entity Event
         Bukkit.getPluginManager().registerEvents(new EntityDamageListener(), this);

@@ -20,7 +20,7 @@ public class PlayerJoinListener implements Listener {
 
         Player player = event.getPlayer();
         event.setJoinMessage(plugin.getMessagePrefix() + "Fantastisch! " + player.getName() + " is nu online!");
-        player.
+        //player.
     }
 
     @EventHandler
